@@ -11,6 +11,7 @@ Source:		%{name}-%{version}.tar.bz2
 URL:		http://aphopper.sourceforge.net/
 License:	GPL
 Group:		System/Configuration/Networking
+BuildRoot:	%{_tmppath}/%{name}-buildroot
 
 %description
 AP Hopper is a program that automatically hops between access points of
