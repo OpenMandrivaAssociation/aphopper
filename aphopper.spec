@@ -1,6 +1,6 @@
 %define name	aphopper
 %define version	0.3
-%define release %mkrel 5
+%define release %mkrel 6
 
 Name: 	 	%{name}
 Summary: 	Automatic wireless access point hopper
