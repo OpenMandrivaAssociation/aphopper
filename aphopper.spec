@@ -24,7 +24,7 @@ P.S. The binary is called 'hopper'.
 %setup -q -n %name
 
 %build
-%configure
+%configure2_5x
 %make
 										
 %install
