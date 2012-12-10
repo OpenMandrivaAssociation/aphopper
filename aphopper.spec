@@ -41,3 +41,34 @@ rm -rf $RPM_BUILD_ROOT
 %{_sbindir}/hopper
 
 
+
+
+%changelog
+* Thu Dec 09 2010 Oden Eriksson <oeriksson@mandriva.com> 0.3-8mdv2011.0
++ Revision: 616597
+- the mass rebuild of 2010.0 packages
+
+* Wed Sep 02 2009 Thierry Vignaud <tv@mandriva.org> 0.3-7mdv2010.0
++ Revision: 424798
+- fix build (use %%configure2_5x)
+- rebuild
+- rebuild
+
+* Tue Jul 22 2008 Thierry Vignaud <tv@mandriva.org> 0.3-5mdv2009.0
++ Revision: 240306
+- rebuild
+- rebuild
+- kill re-definition of %%buildroot on Pixel's request
+
+  + Olivier Blin <oblin@mandriva.com>
+    - restore BuildRoot
+
+
+* Sun Feb 04 2007 Nicolas Lécureuil <neoclust@mandriva.org> 0.3-3mdv2007.0
++ Revision: 116144
+- Rebuild
+- Import aphopper
+
+* Tue Nov 08 2005 Austin Acton <austin@mandriva.org> 0.3-2mdk
+- Rebuild
+
