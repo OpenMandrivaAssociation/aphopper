@@ -8,7 +8,7 @@ Version: 	%{version}
 Release: 	%{release}
 
 Source:		%{name}-%{version}.tar.bz2
-URL:		http://aphopper.sourceforge.net/
+URL:		https://aphopper.sourceforge.net/
 License:	GPL
 Group:		System/Configuration/Networking
 BuildRoot:	%{_tmppath}/%{name}-buildroot
